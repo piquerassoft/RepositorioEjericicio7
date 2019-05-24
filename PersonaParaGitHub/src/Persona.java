@@ -14,5 +14,8 @@ public class Persona {
 			this.edad = edad;
 		}
 		
-		
+		@Override
+	    public String toString() {
+	        return "DNI: " + this.dni + " Nombre: " + this.nombre + " Apellidos: " + this.apellidos + " Dirección: " + this.direccion + " Edad: " + this.edad;
+	    }
 }
